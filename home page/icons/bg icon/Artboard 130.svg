@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="16px" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard 130</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-130" transform="translate(0.981385, 0.971385)" fill-rule="nonzero">
+            <g id="agLayer_10" transform="translate(0.000000, -0.000000)">
+                <polygon id="ag_Path_" fill="#FFFFFF" points="1.412 5.434 1.412 15.006 3.518 15.006 3.518 7.06 16.568 7.06 16.568 15.006 18.386 15.006 18.386 4.7 1.412 4.7"></polygon>
+                <polygon id="ag_Path_2" fill="#84C225" points="2.943 0.895 17.285 0.895 19.79 3.743 20.14 5.37 0 5.394 2.943 0.894"></polygon>
+                <polygon id="ag_Path_3" fill="#FFFFFF" points="2.943 0.895 0.023 3.887 0 5.394 2.273 5.466 2.273 3.84 4.54 0.894 2.944 0.894"></polygon>
+                <polygon id="ag_Path_4" fill="#FFFFFF" points="6.102 0.895 4.5 3.775 4.5 5.475 6.7 5.475 6.7 3.798 7.634 0.88 6.102 0.894"></polygon>
+                <polygon id="ag_Path_5" fill="#FFFFFF" points="9.277 0.863 9.007 3.855 8.99 5.498 11.223 5.498 11.223 3.888 10.873 0.848 9.277 0.863"></polygon>
+                <polygon id="ag_Path_6" fill="#FFFFFF" points="12.45 0.895 13.505 3.71 13.473 5.45 15.659 5.45 15.659 3.823 13.983 0.895"></polygon>
+                <polygon id="ag_Path_7" fill="#FFFFFF" points="15.754 0.895 17.284 0.895 20.157 3.791 20.141 5.371 18.004 5.371 18.036 3.791 15.756 0.896"></polygon>
+                <polygon id="ag_Rectangle_" fill="#FFFFFF" points="7.297 6.423 16.977 6.423 16.977 15.01 7.297 15.01"></polygon>
+                <polygon id="ag_Rectangle_2" fill="#84C225" points="9.307 7.113 16.2 7.113 16.2 11.257 9.307 11.257"></polygon>
+                <polygon id="ag_Rectangle_3" fill="#FFFFFF" points="12.418 6.52 13.04 6.52 13.04 12.262 12.418 12.262"></polygon>
+                <path d="M2.943,0.99 L2.288,0.01 L17.858,0.01 L17.285,0.99 C17.285,0.99 2.885,0.933 2.943,0.99 Z" id="ag_Path_8" fill="#FFFFFF"></path>
+                <polygon id="Path" fill="#84C225" points="3.518 7.06 7.298 7.06 7.298 15.01 3.518 15.01"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

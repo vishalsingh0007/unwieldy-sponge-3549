@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="16px" viewBox="0 0 22 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Artboard 131</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-131" transform="translate(0.981385, 0.971385)" fill-rule="nonzero">
+            <g id="afLayer_4" transform="translate(0.000000, -0.000000)">
+                <g id="af_Group_">
+                    <g id="af_Group_2" transform="translate(0.000000, 0.848000)">
+                        <polygon id="af_Path_" fill="#82C241" points="1.412 4.586 1.412 14.158 3.518 14.158 3.518 6.212 16.568 6.212 16.568 14.158 18.386 14.158 18.386 3.852 1.412 3.852"></polygon>
+                        <polygon id="af_Path_2" fill="#FFFFFF" points="2.943 0.047 17.285 0.047 19.79 2.895 20.14 4.522 0 4.546 2.943 0.046"></polygon>
+                        <polygon id="af_Path_3" fill="#82C241" points="2.943 0.047 0.023 3.039 0 4.546 2.273 4.618 2.273 2.992 4.54 0.046 2.944 0.046"></polygon>
+                        <polygon id="af_Path_4" fill="#82C241" points="6.102 0.047 4.5 2.927 4.5 4.627 6.7 4.627 6.7 2.95 7.634 0.032 6.102 0.046"></polygon>
+                        <polygon id="af_Path_5" fill="#82C241" points="9.277 0.015 9.007 3.007 8.99 4.65 11.223 4.65 11.223 3.04 10.873 0 9.277 0.015"></polygon>
+                        <polygon id="af_Path_6" fill="#82C241" points="12.45 0.047 13.505 2.862 13.473 4.602 15.659 4.602 15.659 2.975 13.983 0.047"></polygon>
+                        <polygon id="af_Path_7" fill="#82C241" points="15.754 0.047 17.284 0.047 20.157 2.943 20.141 4.523 18.004 4.523 18.036 2.943 15.756 0.048"></polygon>
+                        <polygon id="af_Rectangle_" fill="#82C241" points="7.297 5.575 16.977 5.575 16.977 14.162 7.297 14.162"></polygon>
+                        <polygon id="af_Rectangle_2" fill="#FFFFFF" points="9.307 6.265 16.2 6.265 16.2 10.409 9.307 10.409"></polygon>
+                        <polygon id="af_Rectangle_3" fill="#82C241" points="12.418 5.672 13.04 5.672 13.04 11.414 12.418 11.414"></polygon>
+                    </g>
+                    <path d="M2.943,0.99 L2.288,0.01 L17.858,0.01 L17.285,0.99 C17.285,0.99 2.885,0.933 2.943,0.99 Z" id="af_Path_8" fill="#82C241"></path>
+                </g>
+                <polygon id="Path" fill="#FFFFFF" points="3.518 7.06 7.298 7.06 7.298 15.01 3.518 15.01"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>
