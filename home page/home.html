@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frashly Grocery Mart</title>
+    <script src="https://kit.fontawesome.com/72215895a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./home.css">
+</head>
+
+<body>
+    <!-- section for logo -->
+
+    <!-- section for logo -->
+
+    <header id="navbar">
+        <div id="top_nav_bar_hidden">
+            <div>1860 123 1000</div>
+            <div>Noida, sector-57</div>
+            <!-- //////////////// -->
+
+            <div class="navbar_signin" onclick="signin()">Sign In</div>
+            <span id="showname"></span>
+            <div id="sign-in">
+
+                <div>
+                    <span onclick="closeOption()" class="sign-close">X</span>
+                    <div id="sign-up-in">
+
+                    </div>
+                    <input id="mobile-email" type="text" placeholder="Mobile / Email">
+                    <input id="name" type="text" placeholder="Name">
+                    <button onclick="user_data()">Proceed</button>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- /////////////login part complate///////////// -->
+
+        <div id="below-navbar">
+            <div><img id="logo" src="mylogo.png" alt="" /></div>
+
+            <div id="search_item">
+                <input type="text" name="" placeholder="Search for products..." id="" />
+                <div id="mfglass"><i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+
+            <div id="cart">
+                <div id="cart_img">
+                    <img src="basket.png" alt="" />
+                </div>
+                <div id="cart_qunt">
+                    <samp> My Basket</samp>
+                    <p>0 Item</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="category_top">
+            <div class="category_inner">
+
+                <!-- ///////////////dropdown//////// -->
+                <div class="category">
+                    <p>SHOP BY CATEGORY</p>
+
+                    <div class="category-hover-div">
+                        <div class="category-hover-div-left">
+                            <div class="category-hover-div-left-options">
+                                Fruits & Vegetables
+                            </div>
+                            <div class="category-hover-div-left-options">
+                                Foodgrains, Oil & Masala
+                            </div>
+                            <div class="category-hover-div-left-options">
+                                Bakery Cakes & Dairy
+                            </div>
+                            <div class="category-hover-div-left-options">Beverages</div>
+                            <div class="category-hover-div-left-options">
+                                Snacks & Branded Foods
+                            </div>
+                            <div class="category-hover-div-left-options">Beauty & Hygiene</div>
+                            <div class="category-hover-div-left-options">
+                                Cleaning & Household
+                            </div>
+                            <div class="category-hover-div-left-options">
+                                Kichen, Garden 7 Pets
+                            </div>
+                            <div class="category-hover-div-left-options">
+                                Eggs , Meats & Fish
+                            </div>
+                            <div class="category-hover-div-left-options">
+                                Gourmet & orld Food
+                            </div>
+                            <div class="category-hover-div-left-options">Baby Care</div>
+                            <div class="category-hover-div-left-options">View All</div>
+                        </div>
+
+                        <!-- /////////////right////////// -->
+                        <div class="category-hover-div-right">
+                            <a href="../product page/product.html">
+                                Fresh Vegetables
+                            </a>
+                            <a href="">
+                                Herbs & Seasonings
+                            </a>
+                            <a href="">
+                                Fresh Fruits
+                            </a>
+                            <a href="">Organic Fruits & Vegetables</a>
+                            <a href="">Cuts & Sprouts</a>
+                            <a href="">Exotic Fruits & Veggies</a>
+                            <a href="">Flower Bouquets, Bunches</a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div><img src="./icons/bg icon/offer.svg" alt="" srcset=""></div>
+                    <div>
+                        <p id="offers">OFFERS</p>
+                    </div>
+
+                </div>
+
+            </div>
+    </header>
+
+
+
+    <!-- image slide 1 -->
+
+    <div id="show1">
+
+    </div>
+
+    <div id="image_slider_under_image">
+        <div><img src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_emf_190x60_250122.png"
+                alt=""></div>
+        <div><img src="	https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_bbstar_190x60_250122.png"
+                alt=""></div>
+
+        <div><img
+                src="	https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_precautionary_190x60_250122.png"
+                alt=""></div>
+        <div><img src="	https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_faq_190x60_250122.png"
+                alt=""></div>
+        <div><img
+                src="	https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_combostore_190x60_250122.png"
+                alt=""></div>
+        <div><img
+                src="https://www.bigbasket.com/media/uploads/banner_images/hp_topstrip_m_dealsoftheweek_190x60_250122.png"
+                alt=""></div>
+
+    </div>
+    <div id="show2"></div>
+
+
+
+
+    <main>
+        <!-- main container -->
+        <div id="container">
+
+
+
+            <!-- bank offer div -->
+            <div class="mainDiv">
+                <h3>Bank Offers</h3>
+                <hr>
+
+                <div class="subDiv">
+                    <div class="inner-card">
+                        <a href="">
+                            <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/2a46997a-8de3-47ba-af2d-25e7613f233d/t1_hp_aff_m_bob_360_101122.jpg"
+                                alt="">
+                        </a>
+                    </div>
+
+                    <div class="inner-card">
+                        <a href="">
+
+                            <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/2a46997a-8de3-47ba-af2d-25e7613f233d/t1_hp_aff_m_IndusInd_360_101122.jpg"
+                                alt="">
+                        </a>
+
+                    </div>
+
+                    <div class="inner-card">
+                        <a href="">
+
+                            <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/2a46997a-8de3-47ba-af2d-25e7613f233d/t1_hp_aff_m_rbl_360_101122.jpg"
+                                alt="">
+                        </a>
+
+                    </div>
+
+                    <div class="inner-card">
+                        <a href="">
+
+                            <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/2a46997a-8de3-47ba-af2d-25e7613f233d/t1_hp_aff_m_kotak_360_101122.jpg"
+                                alt="">
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- Popular offer div -->
+                <div class="mainDiv">
+                    <h3>Most Popular</h3>
+                    <hr>
+
+                    <div class="subDiv">
+
+                        <div>
+                            <img src="./imgs/zandu.png" alt="">
+                            <p>Winter Heath Care</p>
+                            <h4>UP TO 30% OFF</h4>
+                        </div>
+                        <div>
+                            <img src="./imgs/vit C.png" alt="">
+                            <p>Vitamin C foe Skin Care</p>
+                            <h4>UP TO 35% OFF</h4>
+                        </div>
+                        <div>
+                            <img src="./imgs/bb care.png" alt="">
+                            <p>Masks,Gloves & Sanitizers</p>
+                            <h4>UP TO 60% OFF</h4>
+                        </div>
+                        <div>
+                            <img src="./imgs/sanitzer.png" alt="">
+                            <p>Stationary</p>
+                            <h4>UP TO 10% OFF</h4>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- Top offers -->
+                <div class="mainDiv">
+                    <h3>Top Offers</h3>
+                    <hr>
+
+                    <div class="subDiv">
+
+                        <div>
+                            <img src="./imgs/off1.png" alt="">
+
+                        </div>
+                        <div>
+                            <img src="./imgs/off2.png" alt="">
+
+                        </div>
+                        <div>
+                            <img src="./imgs/off3.png" alt="">
+
+                        </div>
+                        <div>
+                            <img src="./imgs/off4.png" alt="">
+
+                        </div>
+                    </div>
+
+                    <!-- Fruits and Vegetables -->
+                    <div class="mainDiv2">
+                        <h3>Fruits and Vegetables</h3>
+                        <hr>
+
+                        <div class="subDiv2">
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/9801292b-8291-488a-bb4e-7712022dc060/hp_organic-fnv_Storefront_m_251022_01.jpg"
+                                        alt="">
+                                    <!-- <p>Organic Fruits & Vegetables</p> -->
+                                </a>
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/9801292b-8291-488a-bb4e-7712022dc060/hp_fresh-fruits-fnv_Storefront_m_251022_02.jpg"
+                                        alt="">
+                                    <!-- <p>Fresh Fruits</p> -->
+                                </a>
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/9801292b-8291-488a-bb4e-7712022dc060/hp_fresh-veggs-fnv_Storefront_m_251022_03.jpg"
+                                        alt="">
+                                    <!-- <p>Fresh Vegetables</p> -->
+                                </a>
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/9801292b-8291-488a-bb4e-7712022dc060/hp_cutx-sprouts-fnv_Storefront_m_251022_04.jpg"
+                                        alt="">
+                                    <!-- <p>Cut & Sprouts</p> -->
+                                </a>
+
+                            </div>
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/9801292b-8291-488a-bb4e-7712022dc060/hp_exotic-fnv_Storefront_m_251022_05.jpg"
+                                        alt="">
+                                    <!-- <p>Exotic Fruits & Vegetables</p> -->
+                                </a>
+
+                            </div>
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/9801292b-8291-488a-bb4e-7712022dc060/hp_herbs-seasoning-fnv_m_251022_06.jpg"
+                                        alt="">
+                                    <!-- <p>Herbs and Seasonings</p> -->
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Your Daily Staples -->
+                    <!-- <hr> -->
+
+                    <div class="mainDiv2">
+                        <h4>Your Daily Staples</h4>
+                        <hr>
+
+                        <div class="subDiv2">
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/fdc267dd-d968-4b49-933f-9f007b7aab7d/hp_atta-flour-staplesStorefront_m_480_251022_01.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Atta & Flour</p> -->
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/fdc267dd-d968-4b49-933f-9f007b7aab7d/hp_rice-staplesStorefront_m_480_251022_02.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Rice & Rice Products</p> -->
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/fdc267dd-d968-4b49-933f-9f007b7aab7d/hp_dals-pulses-staplesStorefront_m_480_251022_03.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Dals & pulses</p> -->
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/fdc267dd-d968-4b49-933f-9f007b7aab7d/hp_cooking-oil-staplesStorefront_m_480_251022_04.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Cooking Oil & Ghee</p> -->
+
+                            </div>
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/fdc267dd-d968-4b49-933f-9f007b7aab7d/hp_dry-fruits-staplesStorefront_m_480_251022_05.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Dry Fruits</p> -->
+
+                            </div>
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/fdc267dd-d968-4b49-933f-9f007b7aab7d/hp_salt-sugar-staplesStorefront_m_480_251022_06.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Salt,Suger &Jaggery</p> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                    <!-- <div class="fvDiv">
+
+                        <div id="a">
+                            <img src="./imgs/vg1.png" alt="">
+                            <h3>Under 10 Rs</h3>
+                        </div>
+                        <div id="b">
+                            <img src="./imgs/vg2.png" alt="">
+                            <p>Fresh fruits</p>
+                        </div>
+                        <div id="c">
+                            <img src="./imgs/vg3.png" alt="">
+                            <p>Fresh Vegetables</p>
+                        </div>
+                        <div id="d">
+                            <img src="./imgs/vg4.png" alt="">
+                            <p>Cuts & Sprouts</p>
+                        </div>
+                        <div id="e">
+                            <img src="./imgs/vg5.png" alt="">
+                            <p>Exotic Corner</p>
+                        </div>
+                    </div> -->
+
+                    <!-- snaks store div -->
+                    <div class="mainDiv2">
+                        <h4>Snack Store</h4>
+                        <hr>
+
+                        <div class="subDiv2">
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/307d4a8d-5ffb-43c3-a70e-59d26c671cc2/hp_namkeens-snacksStorefront_m_480_251022_01.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Atta & Flour</p> -->
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/307d4a8d-5ffb-43c3-a70e-59d26c671cc2/hp_frozen-snacks-snacksStorefront_m_480_251022_02.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Rice & Rice Products</p> -->
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/307d4a8d-5ffb-43c3-a70e-59d26c671cc2/hp_soups-noodles-snacksStorefront_m_480_251022_03.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Dals & pulses</p> -->
+
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/307d4a8d-5ffb-43c3-a70e-59d26c671cc2/hp_ready-cook-snacksStorefront_m_480_251022_04.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Cooking Oil & Ghee</p> -->
+
+                            </div>
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/307d4a8d-5ffb-43c3-a70e-59d26c671cc2/hp_biscuit-cookies-snacksStorefront_m_480_251022_05.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Dry Fruits</p> -->
+
+                            </div>
+
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/307d4a8d-5ffb-43c3-a70e-59d26c671cc2/hp_chocolates-snacksStorefront_m_480_251022_06-13.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Salt,Suger &Jaggery</p> -->
+
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!-- Beverages div -->
+                    <h4>Beverages</h4>
+                    <hr>
+
+                    <div class="fvDiv">
+
+                        <div id="a">
+                            <a href="#">
+
+                                <img width="100%"
+                                    src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/c9120807-7db5-4f39-9895-3b03dee91c54/hp_hot-sips-beveragesStorefront_m_251022_560x378_01.jpg"
+                                    alt="">
+                            </a>
+                            <!-- <p>soups</p>
+                            <h3>U   p To 35% OFF</h3> -->
+                        </div>
+                        <div id="b">
+                            <a href="#">
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/c9120807-7db5-4f39-9895-3b03dee91c54/hp_coost-beveragesStorefront_m_251022_275x184_02.jpg"
+                                    alt="" />
+                            </a>
+                            <!-- <p>Tea</p>
+                            <h4>UP TO 50% OFF</h4> -->
+                        </div>
+                        <div id="c">
+                            <a href="#">
+
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/c9120807-7db5-4f39-9895-3b03dee91c54/hp_coffee-beveragesStorefront_m_251022_275x184_03.jpg"
+                                    alt="">
+                            </a>
+                            <!-- <p>Coffe</p>
+                            <h4>UP TO 15% OFF</h4> -->
+                        </div>
+                        <div id="d">
+                            <a href="#">
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/c9120807-7db5-4f39-9895-3b03dee91c54/hp_health-beveragesStorefront_m_251022_275x184_04.jpg"
+                                    alt="">
+                            </a>
+
+                            <!-- <p>Instant Coffee</p>
+                            <h4>UP TO 40% OFF</h4> -->
+                        </div>
+                        <div id="e">
+                            <a href="#">
+
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/c9120807-7db5-4f39-9895-3b03dee91c54/hp_energy-beveragesStorefront_m_251022_275x184_05.jpg"
+                                    alt="">
+                            </a>
+                            <!-- <p>Health Drinks</p>
+                            <h4>UP TO 15% OFF</h4> -->
+                        </div>
+                    </div>
+
+
+
+                    <!-- cleaning & household div -->
+                    <div class="mainDiv">
+                        <h3>Cleaning & Household</h3>
+                        <hr>
+
+                        <div class="subDiv">
+
+                            <div>
+                                <a href="">
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/d3dc58d9-5531-4b8c-ae8c-740a6f4dce51/hp_cleaners-disnfectants_m_480_251022_01.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Cleaners & disinfectants</p>
+                                <h4>UP TO 30% OFF</h4> -->
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/d3dc58d9-5531-4b8c-ae8c-740a6f4dce51/hp_detetgents-cleaningStorefront_m_480_251022_02.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Detergant & Fabric Care</p>
+                                <h4>UP TO 25% OFF</h4> -->
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/d3dc58d9-5531-4b8c-ae8c-740a6f4dce51/hp_kitchen-wipes-m_480_251022_03.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Freshners & Replicants</p>
+                                <h4>UP TO 25% OFF</h4> -->
+                            </div>
+                            <div>
+                                <a href="">
+
+                                    <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/d3dc58d9-5531-4b8c-ae8c-740a6f4dce51/hp_fresheners-repplent-_m_480_251022_04.jpg"
+                                        alt="">
+                                </a>
+                                <!-- <p>Kitchen Wipes & Utensils scrubs</p>
+                                <h4>UP TO 30% OFF</h4> -->
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- Beuty ans Hygiene  div -->
+                    <h4>Beauty & Hygiene</h4>
+                    <hr>
+
+                    <div class="fvDiv">
+
+                        <div id="a">
+                            <a href="">
+
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/6fe7b988-d217-4451-a8ff-6ddd2762f3d5/hp_beauty-Storefront_m_251022_560x378_01.jpg"
+                                    alt="">
+                            </a>
+
+                        </div>
+                        <div id="b">
+                            <a href="">
+
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/6fe7b988-d217-4451-a8ff-6ddd2762f3d5/hp_beauty-Storefront_m_251022_275x184_02.jpg"
+                                    alt="" />
+                            </a>
+
+                        </div>
+                        <div id="c">
+                            <a href="">
+
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/6fe7b988-d217-4451-a8ff-6ddd2762f3d5/hp_beauty-Storefront_m_251022_275x184_03.jpg"
+                                    alt="">
+                            </a>
+
+                        </div>
+                        <div id="d">
+                            <a href="">
+
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/6fe7b988-d217-4451-a8ff-6ddd2762f3d5/hp_beauty-Storefront_m_251022_275x184_04.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div id="e">
+                            <a href="">
+
+                                <img src="https://www.bigbasket.com/media/customPage/77880b23-0233-4fad-b54a-a93c998e0d20/7f6ddfd5-93af-4bbd-a250-ce828daa63d6/6fe7b988-d217-4451-a8ff-6ddd2762f3d5/hp_beauty-Storefront_m_251022_275x184_05.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <!-- home   and Kitchen -->
+
+                    <div class="mainDiv2">
+                        <h3>Home & Kitchen</h3>
+                        <hr>
+
+                        <div class="subDiv2">
+
+                            <div>
+                                <img src="./imgs/home1.png" alt="">
+
+
+                            </div>
+                            <div>
+                                <img src="./imgs/home2.png" alt="">
+
+
+                            </div>
+                            <div>
+                                <img src="./imgs/home3.png" alt="">
+
+
+                            </div>
+                            <div>
+                                <img src="./imgs/home4.png" alt="">
+
+
+                            </div>
+
+                            <div>
+                                <img src="./imgs/home5.png" alt="">
+
+                            </div>
+
+                            <div>
+                                <img src="./imgs/home6.png" alt="">
+
+                            </div>
+                        </div>
+
+
+
+
+
+                        <!-- brand store div -->
+
+                        <div class="mainDiv2">
+                            <h3>Brand store</h3>
+                            <hr>
+
+                            <div class="subDiv2">
+
+                                <div>
+                                    <a href="">
+
+                                        <img src="./imgs/brand1.png" alt="">
+                                    </a>
+
+
+                                </div>
+                                <div>
+                                    <a href="">
+
+                                        <img src="./imgs/brand2.png" alt="">
+                                    </a>
+
+
+                                </div>
+                                <div>
+                                    <a href="">
+
+                                        <img src="./imgs/brand3.png" alt="">
+                                    </a>
+
+
+                                </div>
+                                <div>
+                                    <a href="">
+
+                                        <img src="./imgs/brand4.png" alt="">
+                                    </a>
+
+                                </div>
+
+                                <div>
+                                    <a href="">
+
+                                        <img src="./imgs/brand5.png" alt="">
+                                    </a>
+
+                                </div>
+
+                                <div>
+                                    <a href="">
+
+                                        <img src="./imgs/brand6.png" alt="">
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+    </main>
+
+    <footer style="width:80%; margin:auto">
+        <hr>
+        <div style="width:80%">
+            <div class="parent1">
+                <div class="child">
+                    <h4 style="color: green;">bigbasket</h4>
+                    <p>About Us</p>
+                    <p>In News</p>
+                    <p>Green bigbasket</p>
+                    <p>Privacy Policy</p>
+                    <p>Affiliate</p>
+                    <p>Terms and Conditions</p>
+                    <p>Careers At bigbasket</p>
+                    <p>bb Instant</p>
+                    <p>bb Daily</p>
+                    <p>bb Blog</p>
+
+
+                </div>
+                <div class="child">
+                    <h4 style="color: green;">Help</h4>
+                    <p>FAQs</p>
+                    <p>Contact Us</p>
+                    <p>bb Wallet FAQs</p>
+                    <p>bb Wallet T&Cs</p>
+                    <p>Vendor Connect</p>
+                </div>
+                <div class="child">
+                    <h4 style="color: green;">Download Our App</h4>
+                    <div><img
+                            src="https://www.bbassets.com/static/v2514/custPage/build/content/img/Google-App-store-icon.png"
+                            alt=""></div>
+                    <div><img
+                            src="https://www.bbassets.com/static/v2514/custPage/build/content/img/Apple-App-store-icon.png"
+                            alt=""></div>
+                </div>
+                <div class="child">
+                    <h4 style="color: green;">Download Our App</h4>
+                    <div style="display: flex;">
+                        <div class="ja"><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png"
+                                alt="" style="height: 42px;width: 43px; padding: 0px 5px 5px 5px; "></div>
+                        <div class="ja"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTBjAAckYjOVIIsiqhARym2rHjJ2i2JiyH4Q&usqp=CAU"
+                                alt="" style="height: 40px;width: 40px;padding: 0px 5px 5px 5px; "></div>
+                        <div class="ja"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstfv9_bPbqdcnazcz6VzU5PF7NggkPuG03Q&usqp=CAU"
+                                alt="" style="height: 40px;width: 40px; padding: 0px 5px 5px 5px;"></div>
+                        <div class="ja"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRaekzA4ZW-1ZXQdwSVSlVBcTCoa6SyiAIaQ&usqp=CAU"
+                                alt="" style="height: 40px;width: 40px;padding: 0px 5px 5px 5px; "></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="parent2">
+                <div class="child2">
+
+                    <div>
+                        <h4 style="color: green;">POPULAR CATEGORIES:</h4>
+                    </div>
+
+                    <div>
+                        <p>
+                            Sunflower Oils, Wheat Atta, Ghee, Milk, Health Drinks, Flakes, Organic F&V, Namkeen, Eggs,
+                            Floor
+                            Cleaners, Other Juices, Leafy Vegetables, Frozen Veg Food, Diapers & Wipes,</p>
+                    </div>
+
+                </div>
+
+                <div class="child2">
+
+                    <div>
+                        <h4 style="color: green;">POPULAR BRAND:</h4>
+                    </div>
+
+                    <div>
+
+                        <p>
+                            Amul, Nescafe , MTR, Red Bull, elite cake, Pediasure, Yummiez, Yera, Yakult, Britannia, Wow
+                            Momo, Fortune , Haldirams , Ferrero, Lays, Patanjali, McCain, kwality walls, Cadbury Dairy
+                            Milk,
+                            Pedigree,</p>
+                    </div>
+                </div>
+
+                <div class="child2">
+
+                    <div>
+                        <h4 style="color: green;"> CITIES WE SERVE:</h4>
+                    </div>
+
+                    <div>
+
+                        <p>Bangalore, Hyderabad, Mumbai, Pune, Chennai, Delhi, Mysore, Madurai, Coimbatore,
+                            Vijayawada-Guntur, Kolkata, Ahmedabad-Gandhinagar, Nashik Business, Lucknow-Kanpur, Gurgaon,
+                            Vadodara, Visakhapatnam, Surat, Nagpur, Patna, Indore, Chandigarh Tricity, Jaipur, Bhopal,
+                            Noida-Ghaziabad, Kochi, Krishna District, Bhubaneshwar-Cuttack, Guwahati, Renigunta, Hubli,
+                            Davanagere, Trichy, Amravati, Raipur, Rajkot, Gwalior, Bareilly, Allahabad, Hyderabad Rural,
+                            Bangalore Rural, Chennai Rural, Vizag Rural, Lucknow Rural, Noida Rural, Ahmedabad Rural,
+                            Bhopal
+                            Rural, Bhubaneswar Rural, Coimbatore Rural, Chandigarh Rural, Gurugram Rural, Guwahati
+                            Rural,
+                            Indore Rural, Kochi Rural, Kolkata Rural, Mumbai Rural, Mysore Rural, Nagpur Rural, Patna
+                            Rural,
+                            Pune Rural, Surat Rural, Vadodara Rural, Jaipur Rural, Ranchi, Nashik, Agra, Kozhikode, </p>
+                    </div>
+                </div>
+                <div class="child2">
+                    <div>
+                        <h4 style="color: green;"> PAYMENT OPTIONS: &#160 &#160 &#160 </h4>
+
+                    </div>
+                    <div>
+
+                        <img src="https://www.bbassets.com/static/v2609/custPage/build/content/img/footersprite.png"
+                            alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script src="home.js"></script>
