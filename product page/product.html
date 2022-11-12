@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <script src="https://kit.fontawesome.com/72215895a8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="product.css">
+
+</head>
+
+<body>
+  <!-- <-----------------------navbar-------------------------->
+  <header id="navbar">
+    <div id="top_nav_bar_hidden">
+      <div>
+        <div><i class="fa-regular fa-phone"></i></div>
+        <div>1860 123 1000</div>
+      </div>
+      <div>
+        <div><i class="fa-regular fa-location-dot"></i></div>
+        <div>Noida, sector-57</div>
+      </div>
+
+      <!---------------------------------------------------------------->
+
+      <div>
+        <div><i class="fa-solid fa-user"></i></div>
+        <div><a href="">Login/Signup</a></div>
+      </div>
+
+    </div>
+
+    <div id="below-navbar">
+      <div><a href="/unwieldy-sponge-3549/home page/home.html">
+
+          <img id="logo" src="mylogo.png" alt="" />
+        </a></div>
+
+      <div id="search_item">
+        <!-- <div> -->
+        <input type="text" name="" placeholder="Search for products..." id="" />
+        <!-- </div> -->
+        <div id="mfglass"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </div>
+
+      <div id="cart">
+
+        <div id="cart_img">
+          <a href="#">
+            <img src="basket.png" alt="" />
+          </a>
+        </div>
+        <div id="cart_qunt">
+          <a href="/unwieldy-sponge-3549/checkout page/checkout.html">
+            <samp> My Basket</samp>
+            <p id="cartnum">0 Item</p>
+
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div id="category_top">
+      <div class="category_inner">
+
+        <!-- ///////////////dropdown//////// -->
+        <div class="category">
+          <p>SHOP BY CATEGORY</p>
+
+          <!-- <span>Categories</span> -->
+          <!-- <div class="category-arrow"></div> -->
+          <div class="category-hover-div">
+            <div class="category-hover-div-left">
+              <div class="category-hover-div-left-options">
+                Fruits & Vegetables
+              </div>
+              <div class="category-hover-div-left-options">
+                Foodgrains, Oil & Masala
+              </div>
+              <div class="category-hover-div-left-options">
+                Bakery Cakes & Dairy
+              </div>
+              <div class="category-hover-div-left-options">Beverages</div>
+              <div class="category-hover-div-left-options">
+                Snacks & Branded Foods
+              </div>
+              <div class="category-hover-div-left-options">Beauty & Hygiene</div>
+              <div class="category-hover-div-left-options">
+                Cleaning & Household
+              </div>
+              <div class="category-hover-div-left-options">
+                Kichen, Garden 7 Pets
+              </div>
+              <div class="category-hover-div-left-options">
+                Eggs , Meats & Fish
+              </div>
+              <div class="category-hover-div-left-options">
+                Gourmet & orld Food
+              </div>
+              <div class="category-hover-div-left-options">Baby Care</div>
+              <div class="category-hover-div-left-options">View All</div>
+            </div>
+
+            <!-- /////////////right////////// -->
+            <div class="category-hover-div-right">
+              <a href="product.html">
+                Fresh Vegetables
+              </a>
+              <a href="">
+                Herbs & Seasonings
+              </a>
+              <a href="">
+                Fresh Fruits
+              </a>
+              <a href="">Organic Fruits & Vegetables</a>
+              <a href="">Cuts & Sprouts</a>
+              <a href="">Exotic Fruits & Veggies</a>
+              <a href="">Flower Bouquets, Bunches</a>
+
+            </div>
+          </div>
+
+        </div>
+        <div>
+          <p><img src="./icons/bg icon/offer.svg" alt="" srcset="">OFFERS</p>
+        </div>
+
+      </div>
+  </header>
+
+
+
+
+  <!-- <-----------------------------------img----------------->
+  <div id="home">
+    <a>HOME></a>
+    <a>FRUITS & VEGETABLES</a>
+  </div>
+
+  <!-- <---------------------sidebox---------------->
+  <div id="vegcontainer">
+    <div id="sidebar">
+      <div id="first">
+        <p class="first">Category</p>
+        <hr>
+        <p id="fruits">Fruits & vegetables</p>
+        <div>
+          <p>Cuts & Sprouts (102)</p>
+          <p>Exotic Fruits & Veggies (65)</p>
+          <p>Flower Bouquets, Bunches (6)</p>
+          <p>Fresh Vegetables (187)</p>
+          <p>Fresh Fruits (110)</p>
+          <p>Herbs & Seasonings (30)</p>
+          <p>Organic Fruits & Vegetables (63)</p>
+        </div>
+      </div>
+      <div id="brand">
+        <p>Brand</p>
+        <hr id="hr">
+        <input type="search" placeholder="Search By Brand" id="search">
+        <button id="brandsearch"><img src="outline_search_black_24dp.png" onclick="search()"></button>
+        <div id="fresho">
+          <input type="checkbox" id="fresh" onchange="filterfresho()">
+          <p>Fresho</p>
+        </div>
+        <div id="bbcombo"><input type="checkbox" id="bb" onchange="filterbb()">
+          <p>bb Combo</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <------------main box--------------------->
+    <div id="mainbox">
+      <div id="upperbox">
+        <div id="heading">
+          <div>
+            <p>Fruits & Vegetables (379)</p>
+          </div>
+          <div id="truckimg"><img
+              src="https://www.bbassets.com/static/v2514/custPage/build/content/img/standard-del.svg" />
+            <p>ALL PRODUCTS</p>
+          </div>
+        </div>
+
+        <div>
+          <select name="" id="sorting" onchange="pricesort()">
+            <option value="--">Popularity</option>
+            <option value="l2h">Price-Low to High</option>
+            <option value="h2l">Price-High to Low</option>
+          </select>
+        </div>
+
+      </div>
+      <div id="innerbox"></div>
+    </div>
+
+  </div>
+  <!-- <-----------------------footer------------------------>
+  <footer style="width:80%; margin:auto">
+    <hr>
+    <div style="width:80%">
+      <div class="parent1">
+        <div class="child">
+          <h4 style="color: green;">bigbasket</h4>
+          <p>About Us</p>
+          <p>In News</p>
+          <p>Green bigbasket</p>
+          <p>Privacy Policy</p>
+          <p>Affiliate</p>
+          <p>Terms and Conditions</p>
+          <p>Careers At bigbasket</p>
+          <p>bb Instant</p>
+          <p>bb Daily</p>
+          <p>bb Blog</p>
+
+
+        </div>
+        <div class="child">
+          <h4 style="color: green;">Help</h4>
+          <p>FAQs</p>
+          <p>Contact Us</p>
+          <p>bb Wallet FAQs</p>
+          <p>bb Wallet T&Cs</p>
+          <p>Vendor Connect</p>
+        </div>
+        <div class="child">
+          <h4 style="color: green;">Download Our App</h4>
+          <div><img src="https://www.bbassets.com/static/v2514/custPage/build/content/img/Google-App-store-icon.png"
+              alt=""></div>
+          <div><img src="https://www.bbassets.com/static/v2514/custPage/build/content/img/Apple-App-store-icon.png"
+              alt=""></div>
+        </div>
+        <div class="child">
+          <h4 style="color: green;">Download Our App</h4>
+          <div style="display: flex;">
+            <div class="ja"><img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Facebook_Logo.png" alt=""
+                style="height: 42px;width: 43px; padding: 0px 5px 5px 5px; "></div>
+            <div class="ja"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTBjAAckYjOVIIsiqhARym2rHjJ2i2JiyH4Q&usqp=CAU"
+                alt="" style="height: 40px;width: 40px;padding: 0px 5px 5px 5px; "></div>
+            <div class="ja"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQstfv9_bPbqdcnazcz6VzU5PF7NggkPuG03Q&usqp=CAU"
+                alt="" style="height: 40px;width: 40px; padding: 0px 5px 5px 5px;"></div>
+            <div class="ja"><img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRaekzA4ZW-1ZXQdwSVSlVBcTCoa6SyiAIaQ&usqp=CAU"
+                alt="" style="height: 40px;width: 40px;padding: 0px 5px 5px 5px; "></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="parent2">
+        <div class="child2">
+
+          <div>
+            <h4 style="color: green;">POPULAR CATEGORIES:</h4>
+          </div>
+
+          <div>
+            <p>
+              Sunflower Oils, Wheat Atta, Ghee, Milk, Health Drinks, Flakes, Organic F&V, Namkeen, Eggs,
+              Floor
+              Cleaners, Other Juices, Leafy Vegetables, Frozen Veg Food, Diapers & Wipes,</p>
+          </div>
+
+        </div>
+
+        <div class="child2">
+
+          <div>
+            <h4 style="color: green;">POPULAR BRAND:</h4>
+          </div>
+
+          <div>
+
+            <p>
+              Amul, Nescafe , MTR, Red Bull, elite cake, Pediasure, Yummiez, Yera, Yakult, Britannia, Wow
+              Momo, Fortune , Haldirams , Ferrero, Lays, Patanjali, McCain, kwality walls, Cadbury Dairy
+              Milk,
+              Pedigree,</p>
+          </div>
+        </div>
+
+        <div class="child2">
+
+          <div>
+            <h4 style="color: green;"> CITIES WE SERVE:</h4>
+          </div>
+
+          <div>
+
+            <p>Bangalore, Hyderabad, Mumbai, Pune, Chennai, Delhi, Mysore, Madurai, Coimbatore,
+              Vijayawada-Guntur, Kolkata, Ahmedabad-Gandhinagar, Nashik Business, Lucknow-Kanpur, Gurgaon,
+              Vadodara, Visakhapatnam, Surat, Nagpur, Patna, Indore, Chandigarh Tricity, Jaipur, Bhopal,
+              Noida-Ghaziabad, Kochi, Krishna District, Bhubaneshwar-Cuttack, Guwahati, Renigunta, Hubli,
+              Davanagere, Trichy, Amravati, Raipur, Rajkot, Gwalior, Bareilly, Allahabad, Hyderabad Rural,
+              Bangalore Rural, Chennai Rural, Vizag Rural, Lucknow Rural, Noida Rural, Ahmedabad Rural,
+              Bhopal
+              Rural, Bhubaneswar Rural, Coimbatore Rural, Chandigarh Rural, Gurugram Rural, Guwahati
+              Rural,
+              Indore Rural, Kochi Rural, Kolkata Rural, Mumbai Rural, Mysore Rural, Nagpur Rural, Patna
+              Rural,
+              Pune Rural, Surat Rural, Vadodara Rural, Jaipur Rural, Ranchi, Nashik, Agra, Kozhikode, </p>
+          </div>
+        </div>
+        <div class="child2">
+          <div>
+            <h4 style="color: green;"> PAYMENT OPTIONS: &#160 &#160 &#160 </h4>
+
+          </div>
+          <div>
+
+            <img src="https://www.bbassets.com/static/v2609/custPage/build/content/img/footersprite.png" alt="">
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>
+<script src="product.js"></script>
