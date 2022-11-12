@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="address.css" />
+</head>
+
+<body>
+  <div id="navbar">
+    <div class="logo">
+      <img width="30%" src="/unwieldy-sponge-3549/mylogo.png" alt="" />
+    </div>
+    <div class="careNum">
+      <h2>1860 123 1000</h2>
+    </div>
+  </div>
+  <hr />
+
+
+  <div id="main_div">
+    <div id="address">
+      <div class="loction">
+        <h3>Delivery Address</h3>
+      </div>
+      <div>
+        <div id="address_form">
+          <span>Personal Details</span>
+          <div id="form_first_div">
+            <div id="firstname_div">
+              <label for="">Enter first name</label>
+              <input type="text" name="" id="first_name" />
+            </div>
+            <div id="lastname_div">
+              <label for="">Enter last name</label>
+              <input type="text" name="" id="last_name" />
+            </div>
+            <div id="contact_div">
+              <label for="">Enter contact number</label>
+              <input type="text" name="" id="contact_number" />
+            </div>
+          </div>
+
+          <!-- ///////div address details -->
+
+          <span>Address Details</span>
+
+          <div id="form_2nd_div">
+            <div id="houseNo_div">
+              <label for="">House No</label>
+              <input type="text" name="" id="House_no" />
+            </div>
+            <div id="Enter_apartment_div">
+              <label for="">Enter apartment name</label>
+              <input type="text" name="" id="apartment" />
+            </div>
+          </div>
+
+          <!-- div3 -->
+
+          <div id="form_3nd_div">
+            <div id="street_div">
+              <label for="">Enter street details</label>
+              <input type="text" name="" id="street" />
+            </div>
+            <div id="Enter_landmark_div">
+              <label for="">Enter landmark for easy reach out</label>
+              <input type="text" name="" id="landmark" />
+            </div>
+          </div>
+
+          <!-- ////div4/// -->
+          <div id="form_4th_div">
+            <div id="city_div">
+              <label for="">Enter city name</label>
+              <input type="text" name="" id="city" />
+            </div>
+            <div id="area_div">
+              <label for=""> Area details</label>
+              <input type="text" name="" id="Area" />
+            </div>
+            <div id="pinCode_div">
+              <label for=""> * Enter Pincode</label>
+              <input type="text" name="" id="Pincode" />
+            </div>
+          </div>
+
+          <!-- ////div5/// -->
+
+          <div id="where">
+            <p class="address_p">Chosse nick name for this address</p>
+            <div id="where_btn">
+              <button>Home</button>
+              <button>OFFICE</button>
+              <button>OTHER</button>
+            </div>
+          </div>
+          <div id="default">
+            <input type="checkbox" name="" id="" />
+            <p>Set this as my default delivery address</p>
+          </div>
+
+          <div id="address_last_div">
+            <button id="adres" onclick="adres()">ADD ADDRESS</button> <button>CANCEL</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+  </div>
+  <!--**************** Payment options ************-->
+
+  <div id="payment_options_main">
+    <div id="payment_options">
+      <h3>Payment Options</h3>
+    </div>
+
+    <div id="list">
+      <div id="first">
+        <h3> Payment Options With Offer</h3>
+        <p class="p">Apply voucher code, if applicable, to aval the offer</p>
+      </div>
+      <div id="second">
+        <h3>Other Payment Options </h3>
+        <p class="p">Credit/Debit, Netbanking, UPI, COD and more</p>
+      </div>
+    </div>
+    <div>
+
+
+      <!-- ***************Options Available For Payment ****************-->
+
+
+      <div id="main">
+        <div id="available_options">
+          <div class="net" id="net">
+            <b>Credit/Debit Card</b>
+          </div>
+          <div class="net">
+            Netbanking
+          </div>
+          <div class="net">
+            UPI
+          </div>
+          <div class="net">
+            Wallet
+          </div>
+          <div class="net">
+            Pay Later
+          </div>
+          <div class="net">
+            Cash/Card on Delivery
+          </div>
+        </div>
+
+        <!-- ********* Enter Card Details********** -->
+
+        <div id="details">
+          <div id="check">
+            <input type="radio">
+            <b>Add Credit / Debit card</b>
+          </div>
+          <div class="Card_details">
+            <p>Card number</p>
+            <input type="text" ; placeholder="Enter card number">
+          </div>
+          <div id="cvv">
+            <div id="valid">
+              <p>Valid Thru</p>
+              <input type="text" ; placeholder="MM/YY">
+            </div>
+            <div id="security_code">
+              <p>CVV</p>
+              <input type="text" ; placeholder="Security code">
+            </div>
+          </div>
+          <div id="default_payment">
+            <input type="checkbox">
+            Save this card for faster payments
+          </div>
+          <button id="order" onclick="order()">Place order & Pay</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</body>
+
+</html>
+<script>
+  function order() {
+    window.location.href = "./otp.html"
+  }
+
+  function adres() {
+    alert("address added sucessfully")
+  }
+</script>

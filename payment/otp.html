@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            background-color: yellowgreen;
+            border: none;
+            padding: 3px;
+
+        }
+
+        div {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <img width="20%" src="/unwieldy-sponge-3549/home page/mylogo.png">
+    <div>
+        <input type="password" placeholder="Enter OTP"><button onclick="otp()">submit</button>
+    </div>
+
+</body>
+
+</html>
+<script>
+    function otp() {
+        var enter = document.querySelector("input").value
+        if (enter == 1234) {
+            window.location.href = "../payment/sucessful.html"
+        }
+        else {
+            alert("invalid otp")
+        }
+    }
+</script>

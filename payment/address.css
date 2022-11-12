@@ -1,0 +1,350 @@
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin: 1% 0% 1% 1%;
+}
+
+.careNum {
+  margin: 1% 1% 1% 1%;
+  color: #97979b
+}
+
+#main_div {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+#address_form label {
+  color: #979797;
+  margin-bottom: 10px;
+}
+
+#address {
+  border: 1px solid black;
+  width: 70%;
+}
+
+.loction {
+  margin: 1.5%;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#address_form {
+  background-color: #f5f5f5;
+  margin: 1.5%;
+}
+
+#address_form>div {
+  padding: 1%;
+}
+
+#address_form input {
+  height: 25px;
+  border: none;
+}
+
+/* ////div1/// */
+#form_first_div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 2%;
+}
+
+#firstname_div {
+  width: 30%;
+}
+
+#lastname_div {
+  width: 30%;
+}
+
+#contact_div {
+  width: 30%;
+}
+
+#form_first_div label {
+  display: block;
+}
+
+#form_first_div input {
+  width: 100%;
+}
+
+/* ///////div 2 */
+#form_2nd_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+#houseNo_div {
+  width: 33%;
+}
+
+#Enter_apartment_div {
+  width: 60%;
+}
+
+#form_2nd_div label {
+  display: block;
+}
+
+#form_2nd_div input {
+  width: 100%;
+}
+
+/* ///div3/// */
+#form_3nd_div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 2%;
+}
+
+#street_div {
+  width: 55%;
+}
+
+#Enter_landmark_div {
+  width: 40%;
+}
+
+#form_3nd_div label {
+  display: block;
+}
+
+#form_3nd_div input {
+  width: 100%;
+}
+
+/* /////div4//// */
+
+#form_4th_div {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  gap: 2%;
+}
+
+#city_div {
+  width: 25%;
+}
+
+#area_div {
+  width: 45%;
+}
+
+#pinCode_div {
+  width: 25%;
+}
+
+#form_4th_div label {
+  display: block;
+}
+
+#form_4th_div input {
+  width: 100%;
+}
+
+/* ///div5/// */
+.address_p {
+  color: #979797;
+}
+
+#where_btn {
+  display: flex;
+  gap: 2%;
+  margin-top: -10px;
+
+  color: #979797;
+}
+
+#where_btn button {
+  background-color: white;
+  border: none;
+  padding: 7px;
+  color: #666;
+  box-shadow: none !important;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  font-family: inherit;
+}
+
+#where_btn button:focus {
+  outline: #84c225 auto;
+  color: #84c225;
+}
+
+#default {
+  display: flex;
+}
+
+#default input {
+  margin: 10px;
+}
+
+#address_last_div :nth-child(1) {
+  background-color: #666;
+  color: white;
+  padding: 1.2%;
+  border: none;
+  margin-right: 5px;
+}
+
+#address_last_div :nth-child(2) {
+  padding: 1%;
+
+  /* ************************************ Payment Page ************************************************ */
+}
+
+#list {
+  display: flex;
+  gap: 5%;
+  margin-bottom: 20px;
+}
+
+#first {
+  width: 210%;
+  height: 10%;
+  border: 1px solid #afa8a8;
+  background-color: white;
+  margin-left: 20px;
+  padding: 5px 5px 5px 10px;
+}
+
+#second {
+  width: 200%;
+  height: 10%;
+  border: 1px solid #afa8a8;
+  background-color: white;
+  margin-right: 20px;
+  padding: 5px 6px 5px 6px
+}
+
+#payment_options_main {
+  width: 70%;
+  height: 100%;
+  border: 1px solid black;
+
+}
+
+#available_options {
+  width: 20%;
+  height: 100%;
+  border-bottom: 1px solid #d5d5d5;
+  border-left: 1px solid #d5d5d5;
+  border-right: 1px solid #d5d5d5;
+}
+
+#credit {
+  width: 99%;
+  height: 10%;
+  border-bottom: 1px solid #d5d5d5;
+}
+
+#net {
+  background-color: #f7f7f7;
+  border-top: 1px solid lightgrey;
+}
+
+.net {
+  border-bottom: 1px solid #d5d5d5;
+  padding: 10px 10px;
+  background-color: white;
+}
+
+#details {
+  width: 500px;
+  height: 5%;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(185, 182, 182, 0.685);
+  padding-left: 50px;
+}
+
+#default_payment {
+  display: flex;
+  width: 500px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+#order {
+  background-color: #daedbe;
+  width: 230px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+#card_details {
+  display: flex;
+  background-color: white;
+}
+
+.Card_details {
+  border-bottom: 1px solid #d5d5d5;
+  width: 77%;
+}
+
+input {
+  border: none;
+}
+
+#valid {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+#main {
+  display: flex;
+  gap: 2%;
+  padding: 20px;
+  border: 1px solid #d5d5d5;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #f6f6f6;
+}
+
+#cvv {
+  display: flex;
+  gap: 50px;
+}
+
+#check {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  gap: 10px;
+  margin-top: 30px;
+  accent-color: blue;
+}
+
+#details>div>input {
+  width: 300px;
+}
+
+#payment_options {
+  background-color: white;
+  height: 10%;
+  width: 95.5%;
+  border-bottom: 1px solid grey;
+  margin-bottom: 20px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  padding-left: 34px;
+  color: #666666;
+}
+
+#security_code {
+  border-bottom: 1px solid #d5d5d5;
+}
+
+.p {
+  color: #c6c6c6;
+}
