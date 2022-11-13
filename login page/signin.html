@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            margin-top: 2%;
+        }
+
+        #img {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 13px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+            margin-bottom: 16px;
+            resize: vertical;
+
+        }
+
+        #container {
+            width: 35%;
+            padding: 3rem 1rem;
+        }
+
+        form {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 1.4rem;
+            border-radius: 15px;
+        }
+
+        p {
+            font-size: 13px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h2,
+        p {
+            text-align: center;
+        }
+
+        button {
+            border-width: 1px;
+            border-color: rgb(0, 100, 250);
+            background-color: rgb(0, 100, 250);
+            padding: 10px;
+            width: 96%;
+            margin: 25px;
+            color: white;
+            display: flex;
+            height: 3rem;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.5rem;
+            font-size: .875rem;
+            line-height: 1.25rem;
+            font-weight: 600;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="img"> <a href="/unwieldy-sponge-3549/home page/home.html"> <img width="35%" src="mylogo.png"
+                    alt=""></a></div>
+
+        <form action="">
+            <h2>Sign In</h2>
+            <label for="">Email</label> <br>
+            <input type="email" id="email"> <br>
+            <label for="">Password</label> <br>
+            <input type="password" name="" id="password">
+            <p>By signing up, I accept the Frashly Grocery Mart <a href="">Terms of Service</a> and <br /> acknowledge
+                the <a href="">Privacy Policy.</a> </p>
+            <a href=""> <button>SIGN IN</button></a>
+            <p>Don`t have an account? <a href="signup.html">Sign Up</a> </p>
+        </form>
+
+    </div>
+
+</body>
+
+</html>
+
+<script>
+    let data = JSON.parse(localStorage.getItem('signupDetails'));
+    document.querySelector('button').addEventListener('click', myfunt);
+    let dataArr = [];
+    let arr = JSON.parse(localStorage.getItem('signupDetails')) || [];
+
+    function myfunt(event) {
+        event.preventDefault();
+        let email = document.getElementById('email').value;
+        let password = document.getElementById('password').value;
+
+        let inDetails = {
+            email,
+            password
+        }
+        dataArr.push(inDetails);
+        localStorage.setItem('signinDetails', JSON.stringify(dataArr));
+        arr = JSON.parse(localStorage.getItem('signupDetails'));
+        display(dataArr);
+
+        for (let i = 0; i < dataArr.length; i++) {
+            if (dataArr[i].email == data[i].email && dataArr[i].password == data[i].password) {
+                var login_details = document.querySelector("#login_details");
+                login_details.innerHTML = "hello " + data[i].name;
+                alert('LOGIN SUCCESSFULLY');
+            } else {
+                alert('WRONG CREDENTIAL');
+            }
+        }
+    }
+
+    // function display(dataArr) {
+
+
+    // }
+
+</script>
